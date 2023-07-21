@@ -1,4 +1,4 @@
-async function sendHello() {
+function sendHello() {
 	return new Promise((resolve) => {
 		chrome.windows.create(
 			{
